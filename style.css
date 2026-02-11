@@ -1,0 +1,19 @@
+
+body{ background-image:url("Joueuse de tennis.jpg");
+	background-size:1000px;}
+
+p{
+	color:red;
+	background-color: lightblue;
+	font-family: Arial
+}
+
+h2{
+	color:green;
+}
+.special{background-color: pink;}
+
+div{border: 4px red solid;
+	border-radius: 35px;
+	width: 1000px;
+	height: 1000px; }
