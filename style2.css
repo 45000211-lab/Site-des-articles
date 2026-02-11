@@ -1,0 +1,98 @@
+/* Fond bleu moderne */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titre */
+h1 {
+    color: white;
+    margin-top: 40px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+/* Tableau transformé en carte élégante */
+table {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* Espacement cellules */
+td {
+    padding: 8px 12px;
+}
+
+/* Champs */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Effet focus animé */
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 8px rgba(42,82,152,0.4);
+    outline: none;
+    transform: scale(1.03);
+}
+
+/* Menu déroulant (select amélioré) */
+select {
+    background: linear-gradient(135deg, #ffffff, #f0f4ff);
+    cursor: pointer;
+}
+
+/* Boutons stylés */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #2a5298;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1e3c72;
+    transform: scale(1.05);
+}
+
+/* Lien Menu */
+a {
+    color: #2a5298;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
